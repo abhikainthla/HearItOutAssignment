@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.form-select {
+  color: black; 
+}
+
+.form-select option {
+  color: black; 
+}
+
+.form-select:focus option:checked {
+  color: #01818C; 
+}
+
+.button {
+  color: #ffffff; 
+  background-color: #01818C;
+  width: 138.42px;
+  height: 51.6px;
+  border-radius: 4.07px;
+  align-self: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.button:hover{
+  color: #01818C;
+  background-color: #ffffff;
+
+}
+
