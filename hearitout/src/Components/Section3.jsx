@@ -18,7 +18,7 @@ const Section3 = () => {
         itemsToShow={1}
         itemsToScroll={1}
         autoplay={true}
-        delay={3000}
+        autoplayDelay={3000}
         forwardBtnProps={{
           style: {
             alignSelf: 'center',
