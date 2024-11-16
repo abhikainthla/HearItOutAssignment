@@ -24,19 +24,10 @@ const Section1 = () => {
   };
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'flex-start',
-        flexDirection: 'column',
-        textAlign: 'start',
-        marginTop:'100px',
-        paddingLeft: '50px',
-        gap: '5rem',
-      }}
-    >
+    <>
+    <div className="section1-container" >
       <div style={{ width: '100vw' }}>
-        <p style={{ fontSize: '20px', font: 'roberto', fontWeight: '400' }}>
+        <p className="section1-paragraph">
           Lorem ipsum dolor sit amet
         </p>
         {[0, 1, 2, 3].map((id) => (
@@ -54,12 +45,11 @@ const Section1 = () => {
           Lorem ipsum dolor sit amet
         </p>
         <select
-          className="form-select"
+          className="section1-select"
           value={selectedValue}
           onChange={handleSelectChange}
           style={{
             color: selectedValue ? '#01818C' : '#455A64',
-            width:'862.86px'
           }}
     
         >
@@ -82,8 +72,12 @@ const Section1 = () => {
         />
       ))}
           </div>
-          <button className='button'>Submit</button>
     </div>
+    <div className='btn-div'>
+    <button className='button'>Submit</button>
+    </div>
+    </>
+
   );
 };
 

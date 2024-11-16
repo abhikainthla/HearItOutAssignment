@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Components/Footer'
+import Section2 from './Components/Section2'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <>
     <Navbar/>
     <Section1/>
+    <Section2/>
     <Section3/>
     <Footer/>
     </>
