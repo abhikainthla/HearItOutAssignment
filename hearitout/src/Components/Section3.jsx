@@ -17,6 +17,8 @@ const Section3 = () => {
         onRequestChange={setActiveSlideIndex}
         itemsToShow={1}
         itemsToScroll={1}
+        autoplay={true}
+        delay={3000}
         forwardBtnProps={{
           style: {
             alignSelf: 'center',

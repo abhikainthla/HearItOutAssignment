@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Section2 = () => {
   const [selectedValue, setSelectedValue] = useState('cars');
   const [fetchedData, setFetchedData] = useState([]);
-  const options = ['cars', 'action', 'love', 'time'];
+  const options = ['Cars', 'Action', 'Love', 'Time'];
   const color = ['#2B7397', '#32959D', '#9C7777'];
 
 
@@ -23,7 +23,7 @@ const Section2 = () => {
       }
     };
     getData();
-  }, [selectedValue]);
+  }, [selectedValue,[]]);
 
   const stripHtmlTags = (text) => {
     if (!text) return 'No summary available.';
